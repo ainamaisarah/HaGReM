@@ -41,7 +41,7 @@ void _startAutoScrollCarousel() {
 
       await _carouselController.animateTo(
         maxScroll,
-        duration: const Duration(seconds: 300),
+        duration: const Duration(seconds: 6),
         curve: Curves.linear,
       );
 
@@ -630,7 +630,7 @@ void _startAutoScrollCarousel() {
                           color: themeMode == ThemeMode.dark
                               ? AppColors.accentDarkGrey
                               : AppColors.cardBackground,
-                          borderRadius: BorderRadius.circular(16),
+                          borderRadius: BorderRadius.circular(30),
                         ),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -780,8 +780,8 @@ void _startAutoScrollCarousel() {
           color: AppColors.primaryLight.withOpacity(0.15),
           borderRadius: BorderRadius.circular(16),
            border: Border.all(
-      color: AppColors.primaryDark.withOpacity(0.25),
-      width: 1,
+      color: const Color.fromARGB(255, 7, 26, 53).withOpacity(0.25),
+      width: 2,
     ),
     boxShadow: [
       BoxShadow(
