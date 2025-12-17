@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090308097170",
+    "project_id": "riotapp-6955e",
+    "storage_bucket": "riotapp-6955e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090308097170:android:4335b1a9cc44e4755cd24b",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh1RcDQw1XrscbLTGQarKy6MnWq15j7CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
